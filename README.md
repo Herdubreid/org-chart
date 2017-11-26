@@ -8,7 +8,7 @@ Run `git clone https://github.com/Herdubreid/org-chart.git` and `cd org-chart` o
 
 ## Configuration
 
-Open src/index.html and set the `AIS_BASE_URL` to your AIS server address:
+Open src/index.html and set the `AIS_BASE_URL` to your AIS server address:  
 `AIS_BASE_URL = https://server:port/`.
 
 ## Development server
