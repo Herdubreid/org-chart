@@ -9,7 +9,10 @@ Run `git clone https://github.com/Herdubreid/org-chart.git` and `cd org-chart` o
 ## Configuration
 
 Open src/index.html and set the `AIS_BASE_URL` to your AIS server address:  
-`AIS_BASE_URL = https://server:port/`.
+`AIS_BASE_URL = 'https://server:port/';`.  
+Set the default user and password (leave blank if not used):  
+`AIS_DEFAULT_USER = 'demo';`  
+`AIS_DEFAULT_PWD = 'testing';` 
 
 ## Development server
 
