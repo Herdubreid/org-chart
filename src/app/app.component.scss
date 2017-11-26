@@ -1,0 +1,30 @@
+table {
+    width: 100%;
+}
+td {
+    width: 33%;
+}
+.compressed {
+    line-height: 20px;
+    bottom: 0px;
+}
+.center {
+    text-align: center;
+}
+.right {
+    text-align: right;
+}
+.mat-toolbar {
+    min-height: 70px;
+}
+.menu-button {
+    line-height: normal;
+    padding: 10px;
+}
+.caption {
+    font-size: 13px;
+    font-weight: bold;
+}
+.sub-caption {
+    font-size: 10px;
+}

@@ -1,0 +1,19 @@
+.mat-table {
+    overflow: auto;
+    height: calc(100vh - 185px);
+}
+.mat-column-level {
+    flex: 0 0 5%;
+}
+.mat-header-row {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.mat-header-cell.mat-sort-header-sorted {
+    color: black;
+}
+.mat-form-field {
+    margin-left: 20px;
+    width: 300px;
+}
