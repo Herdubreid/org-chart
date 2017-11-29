@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.
 
+Based on Mike Bostock's [Collapsible Tree.](https://bl.ocks.org/mbostock/4339083)
+
+[Click for a live Demo](http://oc.celin.io).
+
 ## Clone
 
 Run `git clone https://github.com/Herdubreid/org-chart.git` and `cd org-chart` or [Download](https://github.com/Herdubreid/org-chart/archive/master.zip) a ZIP bundle.
