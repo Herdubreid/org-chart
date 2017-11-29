@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Based on Mike Bostock's [Collapsible Tree.](https://bl.ocks.org/mbostock/4339083)
 
-[Click for a live Demo](http://oc.celin.io).
+[See a live demo here.](http://oc.celin.io).
 
 ## Clone
 
