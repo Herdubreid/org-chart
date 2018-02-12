@@ -4,12 +4,11 @@ import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/filter';
 import { SignonService, E1Actions, StatusTypes } from 'e1-service';
+import { environment } from '../environments/environment';
 
 import { SignonPromptComponent } from './e1/signon-prompt.component';
 import { IState } from './store/state';
 import { AppActions } from './store/actions';
-
-declare var AIS_BASE_URL;
 
 @Component({
   selector: 'app-root',
@@ -31,7 +30,7 @@ export class AppComponent implements OnInit {
     dlg: MatDialog,
     signon: SignonService
   ) {
-    signon.baseUrl = AIS_BASE_URL;
+    signon.baseUrl = environment.aisUrl;
     this.status = store.select<string>(s => s.e1.status);
     this.username = store.select<string>(s => s.e1.authResponse ? s.e1.authResponse.userInfo.alphaName : null);
     this.environment = store.select<string>(s => s.e1.authResponse ? s.e1.authResponse.environment : null);

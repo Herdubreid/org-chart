@@ -4,9 +4,6 @@ import { MatDialogRef } from '@angular/material';
 import { Store } from '@ngrx/store';
 import { SignonService } from 'e1-service';
 
-declare var DEFAULT_USER;
-declare var DEFAULT_PWD;
-
 /**
  * Signon Prompt
  */
@@ -59,7 +56,5 @@ export class SignonPromptComponent implements OnInit {
     public store: Store<any>,
     public signon: SignonService
   ) {
-    this.username = DEFAULT_USER;
-    this.password = DEFAULT_PWD;
   }
 }
