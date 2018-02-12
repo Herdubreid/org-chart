@@ -19,6 +19,8 @@ export class E1HelperService {
         this.dlg.open(SignonPromptComponent, {
             disableClose: true,
             width: '250px'
+        }).afterClosed().subscribe(() => {
+            service.call(callback);
         });
     }
     autoSignon(service: IServiceCall, callback: IServiceCallback = {}) {
