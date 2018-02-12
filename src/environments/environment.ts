@@ -5,5 +5,5 @@
 
 export const environment = {
   production: false,
-  aisUrl: 'http://e1.celin.io:9300/'
+  aisUrl: 'https://e1.celin.io:9302/'
 };
